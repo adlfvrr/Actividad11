@@ -30,7 +30,7 @@ namespace ejemplo3
 
         private void btnCalcularPromedio_Click(object sender, EventArgs e)
         {
-            for (int i = 0; i < prom.Length; i++)
+            for (int i = 0; i < cont; i++)
             {
                 ac += prom[i];
             }
